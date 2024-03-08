@@ -1,8 +1,17 @@
 .menu ul {
     display: flex;
+    list-style-type: none;
+    justify-content: center;
 }
 .menu li {
-    list-style: none;
-    text-decoration: none;
     margin: 0 20px;
+}
+.menu a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+.menu img {
+    width: 30px;
 }
