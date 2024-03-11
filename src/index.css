@@ -1,10 +1,10 @@
 #root {
-    max-width: 80%;
-    margin: 0 auto;
+    background-color: #001233;
 }
 body {
+    max-width: 80%;
     margin: 0 auto;
-    background-color: black;
+    background-color: #002855;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
 }
