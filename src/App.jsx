@@ -1,6 +1,6 @@
 import { NavBar } from "./components/NavBar"
 import { Home } from './components/pages/Home';
-import { About } from './components/pages/About';
+import { Experience } from './components/pages/Experience';
 import { Projects } from './components/pages/Projects';
 import { Contact } from './components/pages/Contact';
 import { BrowserRouter as Router} from 'react-router-dom';
@@ -15,8 +15,8 @@ export function App(){
             <section id="home">
                 <Home />
             </section>
-            <section id="about">
-                <About />
+            <section id="experience">
+                <Experience />
             </section>
             <section id="projects">
                 <Projects />

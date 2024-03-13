@@ -1,6 +1,6 @@
 .menu {
     font-family: monospace;
-    line-height: 1.4;
+    font-size: 14px;
 }
 .menu ul {
     display: flex;
@@ -10,7 +10,8 @@
     margin: 0;
 }
 .menu li {
-    margin: 0 20px;
+    margin: 0 5px;
+    width: 6.5em;
 }
 .menu a {
     display: flex;
@@ -21,6 +22,9 @@
 }
 .menu a:hover {
     color: #64FFDA;
+}
+.active {
+    background-color: #002855;
 }
 .menu img {
     width: 18px;

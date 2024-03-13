@@ -1,4 +1,4 @@
-export function About(){
+export function Experience(){
     return(
         <div>
             Seccion About
