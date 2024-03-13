@@ -23,9 +23,6 @@
 .menu a:hover {
     color: #64FFDA;
 }
-.active {
-    background-color: #002855;
-}
 .menu img {
     width: 18px;
 }
